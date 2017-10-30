@@ -2,6 +2,7 @@ FROM alpine:3.6
 
 LABEL maintainer="Lorock.Xu <lorock@qq.com>"
 
+# set TimeZone
 ARG TZ="Asia/Shanghai"
 
 ENV TZ ${TZ}
