@@ -4,7 +4,7 @@ LABEL maintainer="Lorock.Xu <lorock@qq.com>"
 
 ARG TZ="Asia/Shanghai"
 
-ENV TZ ${TZ
+ENV TZ ${TZ}
 
 RUN apk upgrade --update && \
     && apk add bash dnsmasq \
