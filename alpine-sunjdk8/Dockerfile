@@ -1,4 +1,4 @@
-FROM mritd/alpine-glibc:3.6 
+FROM lorock/alpine-glibc
 
 LABEL maintainer="Lorock.Xu <lorock@qq.com>"
 
