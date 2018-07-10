@@ -1,5 +1,8 @@
 FROM       ubuntu:16.04
 MAINTAINER Lorock.Xu "https://github.com/lorock"
+LANG=en_US.UTF-8
+LC_ALL=en_US.UTF-8
+TZ=Asia/Shanghai
 RUN apt-get update \
 && apt-get install -y openssh-server \
 && mkdir /var/run/sshd \
