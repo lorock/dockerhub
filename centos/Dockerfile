@@ -7,6 +7,8 @@ FROM centos:6.9
 MAINTAINER xubaojin <lorock@qq.com>
 #设置默认语言
 ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en  
+ENV LC_ALL en_US.UTF-8 
 #设置为北京时间
 RUN /bin/cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
 #添加运行用户和组WWW,ID为8388
